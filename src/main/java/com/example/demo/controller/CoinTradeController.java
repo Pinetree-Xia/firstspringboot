@@ -45,7 +45,7 @@ public class CoinTradeController {
     @RequestMapping("hello")
     @ResponseBody
     public String hello() {
-        return "hello";
+        return "hello world";
     }
 
     @RequestMapping("listData")
